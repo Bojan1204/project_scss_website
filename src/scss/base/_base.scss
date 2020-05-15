@@ -35,13 +35,18 @@ img {
 
 h1,
 h2,
-h3,
+h3 {
+  font-family: $font-family-display;
+  font-weight: 900;
+}
+
 h4,
 h5,
 h6 {
-  font-family: $font-family-display;
-  font-weight: normal;
+  font-weight: 600;
 }
+
+
 
 /////from main
 
@@ -50,8 +55,8 @@ body {
     padding: 0 0 2em 0;
     font-family: 'Montserrat Alternates', Arial, Helvetica, sans-serif;
     text-align: center;
-    color: $red;
-    background: url('../img/bg.png');
+    color: $black;
+   
 
     img {
         display: block;
@@ -69,7 +74,7 @@ body {
     }
 
     h1 {
-        font-family: 'Anton', Arial, Helvetica, sans-serif;
+        font-family: 'Montserrat', Arial, Helvetica, sans-serif;
     }
 }
 

@@ -3,127 +3,337 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Home Page | Crowstart W4-B4 Kit</title>
+  <title>Home Page</title>
 
   <!-- Importing head -->
   ${require('./views/partials/head.html')}
-
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <!-- CSS style will be added automatically after build, dont add here any style -->
 </head>
 
 <body>
-  <!--[if IE]>
-    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-  <![endif]-->
-  <header>
-    <div class="collapse bg-dark" id="navbarHeader">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-8 col-md-7 py-4">
-            <h4 class="text-white">Good version</h4>
-            <p class="text-muted">Add some information about the album below, the author, or any other background context. Make it a few sentences long so folks can pick up some informative tidbits. Then, link them off to some social networking sites or contact information.</p>
-          </div>
-          <div class="col-sm-4 offset-md-1 py-4">
-            <h4 class="text-white">Contact</h4>
-            <ul class="list-unstyled">
-              <li><a href="#" class="text-white">Follow on Twitter</a></li>
-              <li><a href="#" class="text-white">Like on Facebook</a></li>
-              <li><a href="#" class="text-white">Email me</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="navbar navbar-dark bg-dark box-shadow">
-      <div class="container d-flex justify-content-between">
-        <a href="#" class="navbar-brand d-flex align-items-center">
-          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mr-2"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path><circle cx="12" cy="13" r="4"></circle></svg>
-          <strong>Album</strong>
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      </div>
-    </div>
-  </header>
+  <!--Navigation-->
 
-  <main role="main">
-
-    <section class="jumbotron text-center">
-      <div class="container">
-        <h1 class="jumbotron-heading">Album</h1>
-        <p class="lead text-muted">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don't simply skip over it entirely.</p>
-        <p>
-          <a href="#" class="btn btn-primary my-2 test-btn">Test button</a>
-          <!-- Here is About page -->
-          <a href="about.html" class="btn btn-secondary my-2">About Page</a>
-          <img src="img/webpack4.jpg" alt="">
-        </p>
-      </div>
-    </section>
-
-    <div class="album py-5 bg-light">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4">
-            <div class="card mb-4 box-shadow">
-              <img class="card-img-top" src="img/webpack4.jpg" alt="Card image cap">
-              <div class="card-body">
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                  </div>
-                  <small class="text-muted">9 mins</small>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card mb-4 box-shadow">
-              <img class="card-img-top" src="img/webpack4.jpg" alt="Card image cap">
-              <div class="card-body">
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                  </div>
-                  <small class="text-muted">9 mins</small>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card mb-4 box-shadow">
-              <img class="card-img-top" src="img/webpack4.jpg" alt="Card image cap">
-              <div class="card-body">
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                  </div>
-                  <small class="text-muted">9 mins</small>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </main>
-
-  <footer class="text-muted">
+  <nav class="navbar navbar-expand-md fixed-top navbar-light">
     <div class="container">
-      <p class="float-right">
-        <a href="#">Back to top</a>
-      </p>
-      <p>Album example is &copy; Bootstrap, but please download and customize it for yourself!</p>
-      <p>New to Bootstrap? <a href="../../">Visit the homepage</a> or read our <a href="../../getting-started/">getting started guide</a>.</p>
+    <a class="navbar-brand active" href="#">Vecto</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="dark-blue-text"><i class="fas fa-bars fa-1x"></i></span>
+    </button>
+  
+    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+      <ul class="nav">
+        <li class="nav-item ">
+          <a class="nav-link text-dark" href="#">About Us<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-muted" href="#">Pricing</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link text-muted" href="#">Team</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link text-muted" href="#">Services</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link text-muted" href="#">Gallery</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link btn btn-outline-secondary" href="#">Contact Us</a>
+        </li>
+
+      </ul>
+      
     </div>
-  </footer>
+  </div><!--end container-->
+  </nav>
+<!--End Navigation-->
+
+
+<!--Main-->
+  <section class="home container mb-4">
+
+    <div class="row mt-5">
+      <div class="col-lg-6 mt-5 py-5 pl-5">
+        <img class="img-fluid" alt="image" src="img/wd_bg_img.png">
+
+      </div>
+      <div class="col-lg-6 my-auto">
+        <div class="row">
+          <div class="home-content offset-lg-1 col-lg-10">
+            <h1 class="pb-3">Keep track of the world with our app</h1>
+            <p class="text-left">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem similique aliquam a iusto ipsa debitis nemo perferendis, 
+              error ipsam corporis, vel quo obcaecati voluptas officia explicabo, odio id dolores. </p>
+              <button class="btn_animation">Learn more</button>
+              <button class="btn_black">Contact Us</button>
+          </div>
+        </div>
+
+        
+
+      </div>
+  
+    </div>
+
+  </section>
+
+
+  <section class="call-to-action by-5">
+    <div class="container py-3 ">
+     <h1 class="py-3"> Call to action</h1>
+    <div class="mx-auto heading-line"></div>
+    <p class="py-3 text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni quos natus ratione est velit atque. Expedita, 
+      exercitationem enim ducimus ex vero recusandae quam est, itaque, alias reiciendis illo maxime facere!</p>
+      <button class="btn_learnmore">Learn More</button>
+
+
+    </div>
+
+  </section>
+
+  <!--End Main-->
+
+
+
+<!--Services-->
+
+<section class="services">
+<div class="text-center py-5">
+     <h1 class="py-3">Services</h1>
+    <div class="mx-auto mb-5  heading-line"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 text-center">
+            <i class="fa fa-laptop"></i>
+            <h4 class="py-3">Web design</h4>
+            <p class="pb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit aspernatur dolorem laborum enim. </p>
+        </div>
+        <div class="col-md-4 text-center">
+          <i class="fa fa-briefcase"></i>
+          <h4 class="py-3">HTML 5</h4>
+          <p class="pb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit aspernatur dolorem laborum enim. </p>
+      </div>
+      <div class="col-md-4 text-center">
+        <i class="fa fa-code"></i>
+        <h4 class="py-3">Bootstrap 4</h4>
+        <p class="pb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit aspernatur dolorem laborum enim. </p>
+    </div>
+    <div class="col-md-4 text-center">
+      <i class="fa fa-css3"></i>
+      <h4 class="py-3">CSS 3</h4>
+      <p class="pb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit aspernatur dolorem laborum enim. </p>
+  </div>
+  <div class="col-md-4 text-center">
+    <i class="fa fa-bug"></i>
+    <h4 class="py-3">Bug fixing</h4>
+    <p class="pb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit aspernatur dolorem laborum enim. </p>
+</div>
+<div class="col-md-4 text-center">
+  <i class="fa fa-magnet"></i>
+  <h4 class="py-3">Magnet</h4>
+  <p class="pb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit aspernatur dolorem laborum enim. </p>
+</div>
+      </div><!--end row-->
+    </div>
+
+
+
+</div>
+
+</section><!--end section-->
+<!--End Services-->
+
+
+<!--Portfolio-->
+
+<section class="portoflio container-fluid bg-light">
+  <div class="text-center py-5">
+    <h2 class="py-3">Portoflio</h2>
+    <div class="mx-auto  heading-line"></div>
+  </div>
+  <div class="row">
+    <div class="col-lg-3 p-0">
+      <div class="filter"></div>
+      <img class="img-fluid image-fluidd" src="img/phone1.jpg" alt="image1">
+    </div>
+    <div class="col-lg-3 dark d-flex align-items-center justify-content-center">
+      <div class="text-center">
+         <h4 class="py-3"> HTML &amp; CSS</h4>
+         <a class="m-2" href="#"><i class="fa fa-facebook"></i></a>
+         <a class="m-2" href="#"><i class="fa fa-twitter"></i></a>
+         <a class="m-2" href="#"><i class="fa fa-google"></i></a>
+         <a class="m-2" href="#"><i class="fa fa-git"></i></a>
+      </div>
+     
+    </div>
+
+    <div class="col-lg-3 p-0">
+      <div class="filter"></div>
+      <img class="img-fluid image-fluidd" src="img/phone2.jpg" alt="image1">
+    </div>
+    <div class="col-lg-3 dark d-flex align-items-center justify-content-center">
+      <div class="text-center">
+         <h4 class="py-3">Programming</h4>
+         <a class="m-2" href="#"><i class="fa fa-facebook"></i></a>
+         <a class="m-2" href="#"><i class="fa fa-twitter"></i></a>
+         <a class="m-2" href="#"><i class="fa fa-google"></i></a>
+         <a class="m-2" href="#"><i class="fa fa-git"></i></a>
+      </div>
+     
+    </div>
+    <div class="col-lg-3 dark d-flex align-items-center justify-content-center">
+      <div class="text-center">
+         <h4 class="py-3">Web design</h4>
+         <a class="m-2" href="#"><i class="fa fa-facebook"></i></a>
+         <a class="m-2" href="#"><i class="fa fa-twitter"></i></a>
+         <a class="m-2" href="#"><i class="fa fa-google"></i></a>
+         <a class="m-2" href="#"><i class="fa fa-git"></i></a>
+      </div>
+     
+    </div>
+    <div class="col-lg-3 p-0">
+      <div class="filter"></div>
+      <img class="img-fluid image-fluidd" src="img/phone3.jpg" alt="image1">
+    </div>
+    <div class="col-lg-3 dark d-flex align-items-center justify-content-center">
+      <div class="text-center">
+         <h4 class="py-3">Portoflio</h4>
+         <a class="m-2" href="#"><i class="fa fa-facebook"></i></a>
+         <a class="m-2" href="#"><i class="fa fa-twitter"></i></a>
+         <a class="m-2" href="#"><i class="fa fa-google"></i></a>
+         <a class="m-2" href="#"><i class="fa fa-git"></i></a>
+      </div>
+     
+    </div>
+    <div class="col-lg-3 p-0">
+      <div class="filter"></div>
+      <img class="img-fluid image-fluidd" src="img/girlwithphone.jpg" alt="image1">
+    </div>
+
+  </div><!--end row-->
+
+
+</section><!--end section-->
+<!--End Portoflio-->
+
+
+<!--Contact Us-->
+
+<section class="contact">
+  <div class="container">
+    <div class=" text-center py-5">
+      <h2 class="py-3">Contact Us</h2>
+      <div class="mx-auto heading-line"></div>
+    </div>
+ 
+
+    <div class="row">
+      <div class="col-lg-6">
+        <!--Google map-->
+        <div id="map-container-google-1" class="z-depth-1-half map-container">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d96708.15276875871!2d-74.03927072602627!3d40.759170359768646!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2588f046ee661%3A0xa0b3281fcecc08c!2sManhattan%2C%20New%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sba!4v1589195136279!5m2!1sen!2sba" width="550" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+    </div>
+      <form class="col-lg-6">
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input id="email" class="form-control" type="email" aria-describedby="emailHint" placeholder="Enter email">
+          <small id="emailHint" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        </div>
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input id="name" class="form-control" type="text" placeholder="Enter name">
+          
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea class="form-control" id="message" placeholder="Enter message" rows="5"></textarea>
+        </div>
+        <button type="submit" class="btn btn-lg btn-outline-primary">Submit</button>
+  
+      </form>
+
+
+
+  </div><!--End container-->
+    
+</section>
+<!--End Contact Us-->
+
+
+
+<!--Footer-->
+
+<footer class="footer">
+  <div class="text-center py-5">
+    <h2 class="py-3">Vecto</h2>
+    <div class="mx-auto heading-line"></div>
+  </div>
+  <div class="row mb-3">
+    <div class="col-lg-6 offset-lg-3 text-center">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, quisquam quibusdam esse eligendi quia cupiditate tempora optio vitae veritatis libero earum numquam? Nemo consequuntur sapiente rem ipsum aliquid veniam odit.</p>
+      <ul class="nav justify-content-center">
+        <li>
+          <a href="#" class="nav-link">About Us</a>
+        </li>
+        <li>
+          <a href="#" class="nav-link">About Us</a>
+        </li>
+        <li>
+          <a href="#" class="nav-link">About Us</a>
+        </li>
+        <li>
+          <a href="#" class="nav-link">About Us</a>
+        </li>
+        <li>
+          <a href="#" class="nav-link">About Us</a>
+        </li>
+        <li>
+          <a href="#" class="nav-link">About Us</a>
+        </li>
+      </ul>
+    </div>
+
+
+  </div>
+<div class="copyright text-center py-3 border-top text-muted"></div>
+  <p>Made by Bojan Bosnic &copy; 2020 </p>
+  <p>Vector design by <a href="https://www.vecteezy.com/">www.vecteezy.com</a></p>
+
+</footer>
+
+
+<!--End Footer-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <!-- Javascript will be added automatically after build -->
 </body>

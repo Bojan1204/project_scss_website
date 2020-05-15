@@ -1,0 +1,64 @@
+.btn_animation{
+    font-size: 1.25rem;
+    padding: 9px 11px;
+    text-align: center;
+    text-decoration: none;
+    background-color: transparent;
+    border: 1px solid #011627;
+    position: relative;
+    background-color: transparent;
+    &:hover::before{
+        width: 100%;
+    }
+&::before {
+        content: '';
+        position: absolute;
+        background-color: #83F3ED;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 0%;
+        z-index: -1;
+        transition: 0.5s;
+      }
+
+
+}
+
+.btn_black{
+    font-size: 1.25rem;
+    padding: 9px 11px;
+    text-align: center;
+    text-decoration: none;
+    color: #FFF;
+    background: #011627;
+    border-color: #011627;
+&:hover{
+    color: #83F3ED;
+}
+}
+
+.btn_learnmore{
+    font-size: 1.25rem;
+    padding: 9px 11px;
+    text-align: center;
+    text-decoration: none;
+    background: #83F3ED;
+    border: 1px solid #83F3ED;
+    color: #011627;
+&:hover{
+    background: #011626;
+    color: #83F3ED;
+}    
+}
+ 
+.call-to-action{
+    background: #011627;
+    color: #FFF;
+}
+
+.heading-line{
+    height: 3px;
+    width: 10%;
+    background: #83F3ED;
+}

@@ -30,16 +30,25 @@
     "ttf-loader": "^1.0.2",
     "webpack": "^4.29.6",
     "webpack-cli": "^3.2.3",
-    "webpack-dev-server": "^3.2.1",
+    "webpack-dev-server": "^3.11.0",
     "webpack-merge": "^4.2.1"
   },
   "dependencies": {
     "bootstrap": "^4.3.1",
     "jquery": "^3.3.1",
+    "node-modules": "^1.0.1",
     "popper.js": "^1.14.7"
   },
   "browserslist": [
     "> 1%",
     "last 2 versions"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crowscript/Crowstart-W4-B4-Kit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/crowscript/Crowstart-W4-B4-Kit/issues"
+  },
+  "homepage": "https://github.com/crowscript/Crowstart-W4-B4-Kit#readme"
 }
