@@ -7,20 +7,10 @@
     border: 1px solid #011627;
     position: relative;
     background-color: transparent;
-    &:hover::before{
-        width: 100%;
+    &:hover{
+        background: #011627;
+        color: #FFF; 
     }
-&::before {
-        content: '';
-        position: absolute;
-        background-color: #83F3ED;
-        top: 0;
-        left: 0;
-        height: 100%;
-        width: 0%;
-        z-index: -1;
-        transition: 0.5s;
-      }
 
 
 }
@@ -34,7 +24,8 @@
     background: #011627;
     border-color: #011627;
 &:hover{
-    color: #83F3ED;
+    background: #FFF;
+    color: #011627;
 }
 }
 
