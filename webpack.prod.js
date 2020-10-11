@@ -68,15 +68,6 @@ module.exports = merge(common, {
             }
         }),
         new HtmlWebpackPlugin({
-            template: './src/about.html',
-            filename: './about.html',
-            minify: {
-                removeComments: true,
-                collapseWhitespace: true,
-                removeAttributeQuotes: true
-            }
-        }),
-        new HtmlWebpackPlugin({
             template: './src/404.html',
             filename: './404.html',
             minify: {
