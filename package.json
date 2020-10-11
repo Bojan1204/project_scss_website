@@ -7,6 +7,10 @@
     "start": "webpack-dev-server  --config webpack.dev.js --open chrome --watch",
     "build": "webpack --config webpack.prod.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git://https://github.com/Bojan1204/project_scss_website.git"
+  },
   "keywords": [],
   "author": "Stanislav Vranic - Crowscript",
   "license": "ISC",
@@ -30,13 +34,12 @@
     "ttf-loader": "^1.0.2",
     "webpack": "^4.29.6",
     "webpack-cli": "^3.2.3",
-    "webpack-dev-server": "^3.11.0",
+    "webpack-dev-server": "^3.2.1",
     "webpack-merge": "^4.2.1"
   },
   "dependencies": {
     "bootstrap": "^4.3.1",
     "jquery": "^3.3.1",
-    "node-modules": "^1.0.1",
     "popper.js": "^1.14.7"
   },
   "browserslist": [
