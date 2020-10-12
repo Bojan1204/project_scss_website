@@ -28,7 +28,7 @@ This is a very basic starter kit for the project with Bootstrap 4 as a CSS frame
   - [editorconfig](#editorconfig)
   - [Modernizr](#modernizr)
 
-
+.
 ## About the Project
 ---
 This is a very basic starter kit for project with Bootstrap 4 as a CSS framework and Webpack 4 as a module bundler. When you build the project, you will get in `dist` folder HTML files, where is automatically added `bundle.js` in the bottom of the body and `main.css` in the bottom of head tag.
