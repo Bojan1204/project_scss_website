@@ -7,8 +7,26 @@
     }
 a{
     color: #fff;
+    border: 1px solid;
+    display: flex;
+    text-align: center;
+    border-radius: 50%;
+    margin: 20px;
+    padding: 20px 25px;
+    transition: 0.2s ease-in-out;
     &:hover{
-        color: #ccc;
+        color: #011627;
+        background-color: rgb(255, 255, 255);
+        transform: translateY(-1px);
+        -webkit-box-shadow: 0px 4px 20px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: 0px 4px 20px 0px rgba(0,0,0,0.75);
+        box-shadow: 0px 4px 20px 0px rgba(0,0,0,0.75);
+
+    }
+
+    i{
+        font-size: 20px;
+        
     }
 }
 .last-child{
