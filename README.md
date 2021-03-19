@@ -4,7 +4,7 @@ This is a very basic starter kit for the project with Bootstrap 4 as a CSS frame
 
 ## Table of Contents
 ---
-- [Project_scss_website1](#Project_scss_website1)
+- [blue-page](#blue-page)
 - [Table of Contents](#table-of-contents)
 - [About the Project](#about-the-project)
 - [Status](#status)
@@ -44,7 +44,6 @@ The main benefit is creating separate files in separate folders, which is excell
 ![webpack](https://img.shields.io/badge/Webpack-v4.29.6-blue.svg)
 ![html](https://img.shields.io/badge/HTML-v5-orange.svg)
 ![sass](https://img.shields.io/badge/SASS-v3.7.3-pink.svg)
-![bootstrap](https://img.shields.io/badge/Bootstrap-4.3.1-%23563d7c.svg)
 ![Packagist](https://img.shields.io/packagist/l/doctrine/orm.svg)
 
 
@@ -82,9 +81,9 @@ The main benefit is creating separate files in separate folders, which is excell
 │   │   │   ├── base.scss
 │   │   │   └── index.scss
 │   │   ├── layout
-│   │   │   └── bootstrap
+│   │   │ 
 │   │   │   │   ├── scss
-│   │   │   │   │   └── all bootstrap scss from node_modules
+│   │   │   │   │  
 │   │   │   │   └── variables_custom.scss
 │   │   │   └── index.scss
 │   │   ├── modules
@@ -125,7 +124,7 @@ The main benefit is creating separate files in separate folders, which is excell
 
 ## Getting Started
 ---
-This section provide instructions for other developers to build the project.
+This section provide instructions for other developers how build the project.
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
@@ -144,8 +143,6 @@ These instructions will get you a copy of the project up and running on your loc
 ---
 
 - [Webpack 4](https://webpack.js.org/)
-- [Bootstrap 4](https://getbootstrap.com/docs/4.0/getting-started/introduction/)
-- [jQuery](https://jquery.com/)
 - [SASS](https://sass-lang.com/)
 
 
@@ -158,7 +155,6 @@ What things you need to install the software and how to install them:
 How to install the requirements.
 
 `npm install`
-
 
 
 ### Dependencies
@@ -188,9 +184,7 @@ Dependencies that need to be installed for building/using your project
     "webpack-merge": "^4.2.1"
   },
   "dependencies": {
-    "bootstrap": "^4.3.1",
-    "jquery": "^3.3.1",
-    "popper.js": "^1.14.7"
+
   },
 ```
 #### How install Dependencies
@@ -201,7 +195,7 @@ npm install
 
 ## How to Use
 ---
-Open in your favorite code editor folder **Project_scss_website1** and start editing files in `src` folder.
+Open in your favorite code editor folder **blue-page** and start editing files in `src` folder.
 If you want to change something in Webpack
 
 ### webpack.config.js
@@ -209,7 +203,7 @@ Here is setup of Webpack. So please before change it, read the documentation of 
 If you want to learn Webpack, check Colt Steele Youtube Channel [Colt Steele](https://www.youtube.com/watch?v=3On5Z0gjf4U&list=PLblA84xge2_zwxh3XJqy6UVxS60YdusY8)
 
 ### index.html
-This is the default HTML Boilerplate. Keep in mind - javascript and CSS will be automatically added in your HTML after build, so don't add them in `src/index.html` and `src/about.html`
+This is the default HTML Boilerplate. Keep in mind - javascript and CSS will be automatically added in your HTML after build, so don't add them in `src/index.html`
 
 ### .gitkeep
 This is the file to keep empty folder in Github commit.
@@ -243,11 +237,6 @@ in `.gitignore` file in the line 59 you can find  **Build Systems** below of it 
 - Enter `git push`  at the command line to copy your files from your local repository to remote repository (Github, Bitbucket etc).
 - If prompted for authentication, enter your password.
 
-### Bootstrap
-How to use Bootstrap:
-- [Bootstrap 4 Documentation](https://getbootstrap.com/docs/4.0/getting-started/introduction/)
-- [Bootstrap 4 cheatsheet](https://hackerthemes.com/bootstrap-cheatsheet/)
-
 ### PostCSS
 A searchable catalog of PostCSS plugins:
 - [PostCSS](https://www.postcss.parts/)
@@ -278,9 +267,15 @@ Modernizr does three things:
 
 ## Authors
 ---
-* **Bojan Bosnic** - *Web Developer* 
+* **Bojan Bosnic** - *Web Developer*
+
+## Credits
+---
+Original Author of theme - @crowscript
 
 ## License
 ---
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+[Choose the License](https://choosealicense.com/)
 
 **[Back to top](#table-of-contents)**
